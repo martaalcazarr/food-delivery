@@ -3,15 +3,15 @@
 .header{
     display: flex;
     flex-direction: column;
-    padding: v.$separacion;
+    padding: 2rem;
     align-items: center;
-    @include m.desktop{ /* cambiar por m.tablet */
+    @include m.tablet{ 
         flex-direction: row;
         justify-content: space-between;
-        
+        align-items:flex-start;
     }
     &__logo{
-        width: 10rem; /*editar tamaño, agrandar */
+        width: 16rem; 
         margin-bottom: 5rem;
         @include m.desktop { 
             margin-bottom: 0;
