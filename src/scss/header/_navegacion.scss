@@ -7,9 +7,11 @@
     align-items: center;
     gap: 2rem;
     width: 100%;
-    @include m.desktop { 
+    margin-top: 2rem;
+    @include m.tablet{ 
         width: auto;
         flex-direction: row;
+        
      }
     &__link{
         font-size: 2rem;

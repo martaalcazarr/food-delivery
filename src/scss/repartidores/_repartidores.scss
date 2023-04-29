@@ -12,7 +12,12 @@
     &__grid{
         @include m.tablet { 
             @include m.grid(2, v.$separacion);
+            align-items: center;
          }
+    }
+    &__imagen{
+        width: 100%;
+        height: auto;
     }
 
     &__contenido{
